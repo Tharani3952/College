@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import openai  
 from secret_key import openai_api_key
 import json
@@ -61,7 +55,7 @@ if response_message.get('function_call'):
     )
 
 
-# In[ ]:
+
 
 
 
